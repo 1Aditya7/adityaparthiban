@@ -74,3 +74,10 @@
       @apply bg-background text-foreground;
     }
   }
+
+  @layer utilities {
+    ::selection {
+      background-color: #2563eb; 
+      color: #fff;
+    }
+  }

@@ -1,14 +1,20 @@
 import { Button } from "@/components/ui/button";
 
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-slate-100">
       <main className="flex flex-col p-24">
-        <nav className="flex justify-end pb-8">
-          <ul><Button variant="link" className="hover:text-blue-600">Projects</Button></ul>
-          <ul><Button variant="link" className="hover:text-blue-600">Case Studies</Button></ul>
-          <ul><Button variant="link" className=" hover:text-blue-600">Resume</Button></ul>
-        </nav>
+      <nav className="flex justify-between items-center pb-24 align-middle">
+        <div className="flex items-center">
+          <img src="/initials.svg" alt="Logo" className="h-8 ml-8 hover:cursor-pointer" />
+        </div>
+        <ul className="flex">
+          <li className="mr-4"><Button variant="link" className="hover:text-blue-600 text-md">Projects</Button></li>
+          <li className="mr-4"><Button variant="link" className="hover:text-blue-600 text-md">Case Studies</Button></li>
+          <li><Button variant="link" className="hover:text-blue-600 text-md">Resume</Button></li>
+        </ul>
+      </nav>
         <div className="w-full max-w-4xl pl-8">
           <h1 className="text-6xl font-denton tracking-normal text-zinc-900">
             Building with <span className="text-blue-600">passion</span> <br />
