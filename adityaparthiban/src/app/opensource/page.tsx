@@ -29,7 +29,7 @@ export default function Home() {
             </li>
           </ul>
         </nav>
-        <h1 className="text-4xl font-denton tracking-wide ml-8">Projects</h1>
+        <h1 className="text-4xl font-denton tracking-wide ml-8">Open Source</h1>
         <p className="text-lg text-gray-600 ml-8 mt-12">Check in later!</p>
       </main>
       <div className="mt-auto">

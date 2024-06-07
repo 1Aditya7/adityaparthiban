@@ -17,7 +17,7 @@ export default function Home() {
             </li>
             <li className="mr-4">
               <a href="/case">
-                <Button variant="link" className="hover:text-blue-600 text-md">Case Studies</Button>
+                <Button variant="link" className="hover:text-blue-600 text-md">Open Source</Button>
               </a>
             </li>
             <li>
